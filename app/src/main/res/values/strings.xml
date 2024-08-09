@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PdiNewsApp</string>
+    <string name="headline_title">Headlines</string>
+    <string name="favorite_title">Favorites</string>
+    <string name="search_title">Search</string>
+    <string name="no_internet_text">No Internet</string>
+    <string name="retry_text">Retry</string>
+    <string name="search_hint">Search news…</string>
+
+</resources>
