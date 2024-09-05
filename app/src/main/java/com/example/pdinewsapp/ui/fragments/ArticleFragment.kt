@@ -30,7 +30,6 @@ class ArticleFragment : Fragment(R.layout.fragment_article) {
         binding.webView.apply {
             webViewClient = WebViewClient()
             article.url?.let{
-                Log.i("Bruno", "Url: "+ it)
                 loadUrl(it)
             }
         }

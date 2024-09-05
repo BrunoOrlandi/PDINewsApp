@@ -64,7 +64,6 @@ class NewsAdapter: RecyclerView.Adapter<NewsAdapter.ArticleViewHolder>() {
             articleDateTime.text = article.publishedAt
 
             setOnClickListener{
-                Log.i("Bruno", "Clicou: "+article.url)
                 onItemClickListener?.let {
                     it(article)
                 }

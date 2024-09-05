@@ -4,6 +4,7 @@ import android.app.Application
 import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
+import android.util.Log
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
@@ -29,7 +30,7 @@ class NewsViewModel(app: Application, val newsRepository: NewsRepository): Andro
     var oldSearchQuery: String? = null
 
     init {
-        getHeadlines("br")
+        getHeadlines("us")
     }
 
     fun getHeadlines(countryCode: String) = viewModelScope.launch {
@@ -122,7 +123,7 @@ class NewsViewModel(app: Application, val newsRepository: NewsRepository): Andro
         try {
             if (internetConnection(this.getApplication())){
                 val response = newsRepository.searchNews(searchQuery, searchNewsPage)
-                searchNews.postValue(handleHeadlinesResponse(response))
+                searchNews.postValue(handleSearchNewsResponse(response))
             } else {
                 searchNews.postValue(Resource.Error("No internet connection"))
             }
