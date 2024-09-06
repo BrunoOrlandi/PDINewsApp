@@ -5,5 +5,10 @@
     <dimen name="text_size">16sp</dimen>
     <dimen name="hint_size">14sp</dimen>
     <dimen name="date_time_size">11sp</dimen>
+    <dimen name="capture_button_margin">10sp</dimen>
+    <dimen name="corner_radius">14dp</dimen>
+    <dimen name="txt_selection_width">200dp</dimen>
+    <dimen name="txt_selection_heigth">100dp</dimen>
+    <dimen name="txt_selection_elevation">10dp</dimen>
 
 </resources>

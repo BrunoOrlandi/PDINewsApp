@@ -5,7 +5,6 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import android.widget.AbsListView
 import android.widget.Button
 import android.widget.TextView
@@ -17,7 +16,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.pdinewsapp.R
 import com.example.pdinewsapp.adapters.NewsAdapter
-import com.example.pdinewsapp.databinding.FragmentArticleBinding
 import com.example.pdinewsapp.databinding.FragmentHeadlinesBinding
 import com.example.pdinewsapp.ui.MainActivity
 import com.example.pdinewsapp.ui.NewsViewModel

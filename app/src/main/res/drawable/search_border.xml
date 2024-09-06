@@ -5,7 +5,7 @@
         android:color="@color/purple"
         android:width="2dp"/>
     <corners
-        android:radius="14dp"/>
+        android:radius="@dimen/corner_radius"/>
 
 
 </shape>

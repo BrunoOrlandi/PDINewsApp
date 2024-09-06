@@ -6,8 +6,6 @@
     <string name="no_internet_text">No Internet</string>
     <string name="retry_text">Retry</string>
     <string name="search_hint">Search news…</string>
-    <string name="no_internet_connection_text">No internet connection</string>
-    <string name="unable_connect_text">Unable to connect</string>
-    <string name="no_signal_text">No signal</string>
+    <string name="capture_button_text">Capture Text</string>
 
 </resources>

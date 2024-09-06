@@ -4,11 +4,9 @@ import android.app.Application
 import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
-import android.util.Log
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import androidx.room.Query
 import com.example.pdinewsapp.models.Article
 import com.example.pdinewsapp.models.NewsResponse
 import com.example.pdinewsapp.repository.NewsRepository
